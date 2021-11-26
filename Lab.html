@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		span {
+			color: blue;
+			border: 1px solid block;
+		}
+		.extra span{
+			color: inherit;
+		}
+		h1{color : red;}
+		h2{text-decoration: overline;}
+		h3{text-decoration: line-through;}
+		h4{text-decoration: underline;}
+	</style>
+
+	<title>Lab</title>
+</head>
+<body>
+	<!--first font style-->
+	I want to eat a <em>hamburger</em>.<br>
+	<!--second font style-->
+	<code>I want to eat a hamburger.</code>
+	<!--third font style-->
+	<h1>I want to eat a hamburger.</h1>
+	<!--conflict style-->
+	<h2>I want to eat a hamburger.</h2>
+	<h3>I want to eat a hamburger.</h3>
+	<h4>I want to eat a hamburger.</h4>
+	<!--inherits style-->
+	I want to eat a <span>hamburger</span>.
+	<div class = "extra" style = "color: green">I want to eat a <span>hamburger</span>.</div>
+</body>
+</html>
